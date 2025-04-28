@@ -1,0 +1,52 @@
+# Matlab Automatic Save
+*.asv
+*.m~
+*.fig
+*.mat
+
+
+# Matlab Compile
+*.mex*
+*.o
+*.obj
+*.so
+*.dll
+*.lib
+*.exp
+*.pdb
+
+
+
+# Python
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+
+
+
+# MatConvNet Build Directory
+matconvnet/matlab/mex/
+matconvnet/matlab/+vl/private/
+matconvnet/build/
+
+
+
+# VSCode
+.vscode/
+
+
+
+# OS
+.DS_Store
+Thumbs.db
+
+
+
+# Environment File
+.git
+*.git
+
+
+
+# Git LFS
+.gitattributes
