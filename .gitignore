@@ -2,8 +2,6 @@
 *.asv
 *.m~
 *.fig
-*.mat
-
 
 # Matlab Compile
 *.mex*
@@ -24,10 +22,18 @@ __pycache__/
 
 
 
-# MatConvNet Build Directory
-matconvnet/matlab/mex/
-matconvnet/matlab/+vl/private/
-matconvnet/build/
+# Requirements Folders
+graphviz-2.38/*
+!graphviz-2.38/README.md
+
+HSI2RGB-master/*
+!HSI2RGB-master/README.md
+
+matconvnet-1.0-beta25_gpu -10.0/*
+!matconvnet-1.0-beta25_gpu -10.0/README.md
+
+toolbox-master/*
+!toolbox-master/README.md
 
 
 
