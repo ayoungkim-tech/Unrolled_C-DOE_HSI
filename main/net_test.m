@@ -1,4 +1,4 @@
-clear all;
+99, clear all;
 warning off;
 clc;
 
@@ -56,7 +56,7 @@ Iin_rgb_vals = zeros(n_test_img, img_sz(1), img_sz(2), 3);
 Iout_vals = zeros(n_test_img, img_sz(1), img_sz(2), nch);
 Iout_rgb_vals = zeros(n_test_img, img_sz(1), img_sz(2), 3);
 
-for idx = 1 : length(file_names)
+for idx = 1 : n_test_img
     % load test data
     filename = files(idx).name;
     load([img_dir,filename]);
