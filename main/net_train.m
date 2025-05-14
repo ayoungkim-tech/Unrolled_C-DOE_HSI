@@ -1,3 +1,14 @@
+% This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.
+% See https://creativecommons.org/licenses/by-nc-nd/4.0/
+%
+% © 2025 IEEE. Personal use of this material is permitted.
+% For any other use, permission must be obtained from IEEE.
+%
+% This code is supplementary material for the article:
+% "Snapshot Hyperspectral Imaging with Co-designed Optics, Color Filter Array, and Unrolled Network", 
+% by Ayoung Kim, Ugur Akpinar, Erdem Sahin, Atanas Gotchev, 
+% published in IEEE Open Journal of Signal Processing, 2025.
+
 clear all;
 clc
 
