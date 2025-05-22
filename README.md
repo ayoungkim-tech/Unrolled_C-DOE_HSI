@@ -4,7 +4,16 @@ This repository contains the scripts associated with the paper "Snapshot Hypersp
 If you find our work useful in your research, please cite:
 
 ```
-CITATION BIB
+@ARTICLE{11008739,
+  author={Kim, Ayoung and Akpinar, Ugur and Sahin, Erdem and Gotchev, Atanas},
+  journal={IEEE Open Journal of Signal Processing}, 
+  title={Snapshot Hyperspectral Imaging With Co-Designed Optics, Color Filter Array, and Unrolled Network}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-9},
+  keywords={Image reconstruction;Optical filters;Cameras;Optics;Hyperspectral imaging;Lenses;Image color analysis;Encoding;Apertures;Optical sensors;Color filter array;computational imaging;diffractive optical element;end-to-end learning;hyperspectral imaging;unrolled network},
+  doi={10.1109/OJSP.2025.3571675}}
 ```
 
 ## Abstract
