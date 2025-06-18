@@ -138,11 +138,12 @@ save([save_dir,'\Iout_rgb_vals.mat'], 'Iout_rgb_vals');
 phi0 = net.getParam('phi0').value;
 save([save_dir,'\phi0.mat'], 'phi0');
 colfilt = net.vars(5).value;
+[mu, sigma,~] = net2colfilt(net);
 % colfilt rgb img
 [ydim,xdim,zdim]=size(colfilt);
 Z = reshape(colfilt,[],zdim);
 colfilt_rgb = HSI2RGB(lambda_MS,Z,ydim,xdim,illuminant,threshold);
-save([save_dir,'\colfilt.mat'], 'colfilt','colfilt_rgb');
+save([save_dir,'\colfilt.mat'], 'colfilt','colfilt_rgb','mu','sigma');
 % save heightmap
 cam = net.layers(1).block.opts;
 save([save_dir,'\cam.mat'], 'cam');
